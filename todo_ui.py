@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
-import requests
+import requests # type: ignore
 
-API_BASE_URL = "http://127.0.0.1:8000/api/tasks/"  # Adjust if running on a different port
+API_BASE_URL = "http://127.0.0.1:8000/api/tasks/"  
 
 class ToDoApp:
     def __init__(self, root):
